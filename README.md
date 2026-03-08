@@ -7,12 +7,14 @@ The chatbot uses **Natural Language Processing (NLP)** techniques to understand 
 This project was developed to simplify the process of accessing college-related information without needing manual assistance.
 
 - Features
+  
 -> Interactive chatbot interface
 -> Natural Language Processing for understanding queries
 -> Real-time responses
 -> Web interface built with Flask
 
 - Technologies Used
+  
 -> Python - Backend development         
 -> Flask - Web framework               
 -> NLTK - Natural Language Processing 
@@ -20,10 +22,14 @@ This project was developed to simplify the process of accessing college-related 
 -> HTML/CSS - Frontend interface          
 -> Render - Cloud deployment           
 
- - Future Improvements
+- Future Improvements
+  
 -> Add voice interaction
 -> Integrate deep learning models
 -> Connect chatbot with college database
 -> Improve UI with modern chat design
 -> Deploy on mobile application
+
+- Live Demo
+  https://college-chatbot-1-pwap.onrender.com
 
