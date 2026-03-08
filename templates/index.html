@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h1> College Admission Assistant</h1>
+            <p>Ask me anything about admissions, courses, fees, or facilities</p>
+        </div>
+        
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-message">
+                <div class="message-content">
+                    <p>Hello! I'm your college admission assistant. I can help you with:</p>
+                    <ul>
+                        <li>Admission process and eligibility</li>
+                        <li>Course details and fees</li>
+                        <li>Hostel and transport facilities</li>
+                        <li>Important dates and contact information</li>
+                    </ul>
+                    <p>What would you like to know?</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your question here..." />
+            <button id="sendBtn">Send</button>
+        </div>
+        
+        <div class="quick-questions">
+            <p>Quick questions:</p>
+            <button class="quick-btn" data-question="What is the admission process?">Admission Process</button>
+            <button class="quick-btn" data-question="What is the fee structure?">Fee Structure</button>
+            <button class="quick-btn" data-question="Is hostel available?">Hostel Facility</button>
+            <button class="quick-btn" data-question="What courses are offered?">Courses</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
